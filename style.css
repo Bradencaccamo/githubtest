@@ -1,0 +1,29 @@
+body{
+    background-color: lightblue;
+}
+
+
+.hello{
+    color: brown;
+}
+
+h1{
+    text-align: center;
+}
+
+.seecondClass{
+color: white;
+font-size: 30px;
+font-family: sans-serif;
+font-weight: 700;
+
+}
+
+#sup{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.myNav{
+    background-color: green !important;
+}

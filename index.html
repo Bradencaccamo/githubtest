@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>1St HTMl</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light myNav">
+      <a class="navbar-brand">Navbar</a>
+    </nav>
+
+    <h1 class="hello">Braden</h1>
+
+    <p class="seecondClass">
+      whatsup
+    </p>
+
+    <p id="sup">
+      parenthesis: () bracces: {} brackets: []
+    </p>
+
+    <ul>
+      <li>this is an li</li>
+      <li>
+        classes for multiple things, access them in css with "."
+      </li>
+
+      <li>ids for 1 thing, access in css with "#"</li>
+      <br>
+      <li><a href="google.com">ThisIALink</a></li>
+      <li>
+        <a target="_blank" href="https://www.w3schools.com/html/html_links.asp"
+          >w3schools</a
+        >
+      </li>
+
+      <p id="demo"></p>
+    </ul>
+    <img
+      src="http://4.bp.blogspot.com/-b7ndmrdsKGI/TWB53z9rf-I/AAAAAAAAA58/HRbkPkricOg/s1600/fde.jpg"
+      alt="W3Schools.com"
+      width="104"
+      height="142"
+    />
+  </body>
+
+  <script>
+    var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat"];
+    var text = "";
+    var i;
+
+console.log("hello");
+   console.log(cars)    
+    for (i = 0; i < cars.length; i++) {
+      text += cars[i] + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+
+    
+ 
+  </script>
+</html>
